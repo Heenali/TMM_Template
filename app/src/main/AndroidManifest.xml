@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.simplifiedcoding.navigationdrawerexample">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".Launch"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity_Login"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity_Myaccount"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity_regi"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity_About"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity_help"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity_Chat"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity_Credit"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity_OTP"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity_passcreate"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity_delete"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activiry_setting"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity_SendeMail"
+            android:screenOrientation="portrait"
+            />
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider2154746064754933"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="Template"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

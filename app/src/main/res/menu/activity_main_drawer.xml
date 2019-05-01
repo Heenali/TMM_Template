@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu1"
+            android:icon="@mipmap/profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_menu9"
+            android:icon="@mipmap/profile"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_menu2"
+            android:icon="@mipmap/chat"
+            android:title="My Chats" />
+        <item
+        android:id="@+id/nav_menu3"
+        android:icon="@mipmap/credit"
+        android:title="My Credits" />
+        <item
+            android:id="@+id/nav_menu4"
+            android:icon="@mipmap/setting"
+            android:title="Settings" />
+        <item
+        android:id="@+id/nav_menu5"
+        android:icon="@mipmap/about"
+        android:title="About" />
+        <item
+            android:id="@+id/nav_menu7"
+            android:icon="@mipmap/help_icon"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_menu6"
+            android:icon="@mipmap/logout"
+            android:title="Sign Out" />
+
+    </group>
+
+
+</menu>

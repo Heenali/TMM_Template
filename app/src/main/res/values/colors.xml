@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5AA7FF</color>
+    <color name="colorPrimaryDark">#5AA7FF</color>
+    <color name="colorAccent">#505EFF</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#D5D5D5</color>
+
+    <color name="appcolor">#5AA7FF</color>
+    <color name="appcolor1">#505EFF</color>
+    <color name="appcolor_light">#606060</color>
+    <color name="appcolor2">#1C1C1C</color>
+    <color name="appcolor3">#3D3D3D</color>
+    <color name="errormess">#FF4A56</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="gray_3">#C9C9C9</color>
+    <color name="gray_dark">#999999</color>
+    <color name="gray_light">#EBEBEB</color>
+    <color name="gray_line">#D2CBD3</color>
+    <color name="black">#000000</color>
+</resources>
